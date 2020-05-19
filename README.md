@@ -3,6 +3,8 @@
 
 A converter between django models.py and dbml file
 
+![ModelsToDbml Test Gif](mtd-test.gif)
+
 ## Usage
 1. move to django project directory, beside `manage.py` file:
 ```bash
