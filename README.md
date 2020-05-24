@@ -6,29 +6,29 @@ A converter between django models.py and dbml file
 ![ModelsToDbml Test Gif](mtd-test.gif)
 
 ## Usage
-1. move to django project directory, beside `manage.py` file:
+1. Go to django project directory, beside `manage.py` file:
 ```bash
 >>> cd path/to/folder/of/project
 ```
 
-2. clone DbmlForDjango from github:
+2. Clone DbmlForDjango from github:
 ```bash
 >>> git clone https://github.com/hamedsj/DbmlForDjango
 ```
 
-3. open django shell:
+3. Open django shell:
 ```bash
 >>> python3 manage.py shell
 ```
 
-4. import modelsToDbml and call convert:
+4. Import modelsToDbml and call convert:
 ```python
 >>> from DbmlForDjango import modelsToDbml as mtd
 >>> mtd.convert()
 ```
 
 
-5. now you can see `output.dbml` file beside `manage.py` file
+5. Now you can see `output.dbml` file beside `manage.py` file
 
 
 ## License
