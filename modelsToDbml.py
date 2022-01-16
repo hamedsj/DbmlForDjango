@@ -87,7 +87,7 @@ def convert():
             except KeyError:
                 pass
 
-    with open("output.dmbl", "w") as output:
+    with open("output.dbml", "w") as output:
         for table_name in tables_dict.keys():
             if not tables_dict[table_name]:
                 continue
