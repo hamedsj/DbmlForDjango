@@ -7,7 +7,7 @@ fields_dict = {
     models.CharField.__name__: "varchar",
     models.IntegerField.__name__: "int",
     models.TextField.__name__: "text",
-    models.CITextField.__name__: "citext",
+    CITextField.__name__: "citext",
     models.DateTimeField.__name__: "datetime",
     models.BooleanField.__name__: "boolean",
     models.SmallIntegerField.__name__: "small_int",
