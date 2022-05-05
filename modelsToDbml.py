@@ -1,11 +1,13 @@
 import django.apps
 from django.db import models
+from django.contrib.postgres.fields import CITextField
 
 fields_dict = {
     models.AutoField.__name__: "int",
     models.CharField.__name__: "varchar",
     models.IntegerField.__name__: "int",
     models.TextField.__name__: "text",
+    CITextField.__name__: "citext",
     models.DateTimeField.__name__: "datetime",
     models.BooleanField.__name__: "boolean",
     models.SmallIntegerField.__name__: "small_int",
