@@ -1,5 +1,6 @@
 import django.apps
 from django.db import models
+from django.contrib.postgres.fields import CITextField
 
 fields_dict = {
     models.AutoField.__name__: "int",
